@@ -1,0 +1,1 @@
+/* calculate avg price of dish whether it is vege
