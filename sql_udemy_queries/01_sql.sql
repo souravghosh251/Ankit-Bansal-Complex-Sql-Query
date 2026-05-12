@@ -17,3 +17,7 @@ select * from customers where country='Germany'
 
 select * from customers order by score desc  
 select * from customers order by score asc
+
+
+/* order by multiple columns */
+select * from customers order by country asc, score desc
