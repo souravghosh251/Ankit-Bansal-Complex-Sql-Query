@@ -21,3 +21,8 @@ select * from customers order by score asc
 
 /* order by multiple columns */
 select * from customers order by country asc, score desc
+
+/* Group By */
+
+select Country , Sum(score) from customers
+group by country
