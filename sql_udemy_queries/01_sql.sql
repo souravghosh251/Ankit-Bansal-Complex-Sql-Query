@@ -46,3 +46,7 @@ select * from orders
 
 select * from orders
 order by order_date desc limit 2
+
+/* Static num */
+
+select 123 as static_num
