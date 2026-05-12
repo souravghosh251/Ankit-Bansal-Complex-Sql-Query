@@ -39,3 +39,10 @@ HAVING avg(Score) > 430
 /* Distinct */
 SELECT DISTINCT COUNTRY
 FROM customers
+
+/* GET TWO MOST RECENT ORDERS */
+
+select * from orders
+
+select * from orders
+order by order_date desc limit 2
