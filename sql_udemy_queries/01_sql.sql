@@ -26,3 +26,16 @@ select * from customers order by country asc, score desc
 
 select Country , Sum(score) from customers
 group by country
+
+
+/* Question */
+
+
+select country, AVG(score) as avg_score from customers
+WHERE score <>0
+GROUP By country
+HAVING avg(Score) > 430
+
+/* Distinct */
+SELECT DISTINCT COUNTRY
+FROM customers
